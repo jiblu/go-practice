@@ -7,8 +7,6 @@ go.mod file defines the module's module path
 // creating a new module
 package hello
 
-import "testing"
-
 func Hello() string {
 	return "Hello, world."
 }
