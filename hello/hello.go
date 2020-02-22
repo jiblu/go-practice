@@ -7,6 +7,9 @@ go.mod file defines the module's module path
 // creating a new module
 package hello
 
+import "rsc.io/quote"
+
 func Hello() string {
-	return "Hello, world."
+	return quote.Hello()
+	// return "Hello, world."
 }
