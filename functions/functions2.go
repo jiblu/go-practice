@@ -10,3 +10,4 @@ func main() {
 	string := and("testing", " 123")
 	fmt.Println(string)
 }
+
